@@ -20,13 +20,19 @@ body{
     width: 900px;
     height: 900px; 
 }
-p{
-    color: rgb(1, 129, 221);
+especial-diferente{
+    color: rgb(11, 147, 245);
+
 }
+
 #características-especial{
     color: rgb(87, 7, 198);
-    
 }
+
+#características-2{
+    color: rgb(87, 7, 198);
+}
+
 
 
 
