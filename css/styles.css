@@ -20,7 +20,7 @@ body{
     width: 900px;
     height: 900px; 
 }
-especial-diferente{
+p{
     color: rgb(11, 147, 245);
 
 }
@@ -32,7 +32,9 @@ especial-diferente{
 #características-2{
     color: rgb(87, 7, 198);
 }
-
+#características-especial{
+    color: rgb(87, 7, 198);
+}
 
 
 
