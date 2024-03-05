@@ -20,10 +20,10 @@ body{
     width: 900px;
     height: 900px; 
 }
-pespecial-diferente{
+p{
     color: rgb(60, 173, 173);
 }
-pcaracterísticas-especial{
+.características-especial{
     color: rgb(88, 60, 116);
     
 }
