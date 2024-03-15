@@ -17,8 +17,8 @@ body{
     text-align: center;
     font-weight: bold;
     font-family: Arial;
-    width: 900px;
-    height: 900px; 
+    width: 50;
+    height: 50PX; 
 }
 p{
      color: rgb(11, 147, 245);
@@ -37,14 +37,24 @@ p{
 }
 
 .content{
-    color: rgba(251, 12, 12, 0.737);
+    color: rgba(239, 0, 0, 0.743);
     text-align: center;
     
    
     margin: 2px solid rgb(2, 2, 255);
 }
-
-
+body{
+    background-image: url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:blue  url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe') ;
+    
+}
+.cor{
+    color: brown;
+}
 
 
 
