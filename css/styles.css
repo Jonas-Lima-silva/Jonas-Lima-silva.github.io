@@ -56,6 +56,12 @@ body{
     color: brown;
 }
 
-
+.content{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    opacity: 0.98;
+    background-color:rgb(0, 0, 0); 
+}
 
 
