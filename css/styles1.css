@@ -1,0 +1,29 @@
+h1{
+    color: rgb(87, 7, 198);
+    border: 5px solid rgb(87, 7, 198);
+    border-radius: 20px;
+}
+.mudar-cor{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    opacity: 0.98;
+    background-color:rgb(0, 0, 0);
+    color: rgb(108, 65, 176);
+}
+body{
+    background-image: url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:blue  url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe') ;
+    background-color:rgb(0, 0, 0);
+    
+}
+
+.destacar-cor{
+    color: rgb(0, 8, 243);
+    width: 100px;
+    margin: 30px;
+}

@@ -64,4 +64,7 @@ body{
     background-color:rgb(0, 0, 0); 
 }
 
-
+.mudar-2{
+    width:calc(100vw - 30);
+    margin: 30px;
+}
