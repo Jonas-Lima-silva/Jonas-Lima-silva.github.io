@@ -44,3 +44,53 @@ body{
     background-color: #3300fe;
     color: rgb(255, 255, 255);
     transform: scale(1.2)}
+    header{
+  
+        background-image: url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe');
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:blue  url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe') ;
+
+        width: 100%;
+        background-color:rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 0;
+        
+        }
+        
+        .logo-imagem{
+        width: 50%;
+        height: 50%;
+        background-color: black;
+        border-radius: 25px;
+        
+        }
+        .conteiner-logo{
+        display: flex;
+        align-items: center;
+        }
+        
+        .logo-texto{
+        margin-left: 20px;
+        color: rgb(0, 0, 0);
+        }
+        
+        .manu li{
+        display: inline-block;
+        margin: 0 10px;
+        }
+        .manu {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        background-color:rgb(0, 0, 0);
+        padding: 10px 10px;
+        }
+.conteiner-logo h1{
+    color: black;
+}
