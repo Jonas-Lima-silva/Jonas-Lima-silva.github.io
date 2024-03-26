@@ -27,3 +27,20 @@ body{
     width: 100px;
     margin: 30px;
 }
+.botao{
+    border: solid 1px #005eff;
+    border-radius: 20px;
+    color: rgb(216, 7, 7);
+    background-color:#000000;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+    width: 24.8%;
+    height: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(255, 255, 255);
+}
+.botao:hover{
+    background-color: #3300fe;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2)}
