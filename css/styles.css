@@ -88,7 +88,7 @@ body{
     header{
   
         background-image: url('/img/4305090653ee4239dd0d797f1a4a6bdf.jpe');
-    background-repeat:no-repeat ;
+        background-repeat:no-repeat ;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
