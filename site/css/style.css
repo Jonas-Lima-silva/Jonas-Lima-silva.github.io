@@ -1,8 +1,15 @@
+h1{
+    color: brown;
+    font-family:Arial;
+    margin: auto;
+}
 body{
     background-color: rgb(255, 255, 255);
     text-align:center;
-    width: 700;
-    height: 700px;
+    background-image: url('/site/img/Death-Note2.webp');
+    background-position: center;
+    background-size:cover;
+
 
 }
 img{
@@ -10,4 +17,16 @@ img{
     margin: 200px;;
     min-width: 275px;
     
+}
+.cor-ruim{
+    color: brown;
+}
+h2{
+    color: brown;
+    width: 200;
+    height: 200;
+}
+.cor-ruim{
+    color: brown;
+ 
 }
