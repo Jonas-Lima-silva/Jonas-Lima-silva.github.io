@@ -2,6 +2,7 @@ h1{
     color: brown;
     font-family:Arial;
     margin: auto;
+   
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -29,4 +30,7 @@ h2{
 .cor-ruim{
     color: brown;
  
+}
+.cor-ruim2{
+    color: brown;
 }
