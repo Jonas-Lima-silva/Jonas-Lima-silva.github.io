@@ -1,36 +1,144 @@
-h1{
-    color: brown;
-    font-family:Arial;
-    margin: auto;
-   
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
 }
-body{
-    background-color: rgb(255, 255, 255);
-    text-align:center;
-    background-image: url('/site/img/Death-Note2.webp');
-    background-position: center;
-    background-size:cover;
+
+h1, h2 {
+    color: #d32f2f;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #c2185b;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.container {
+    background-color: #2e2e2e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    margin: 30px 0;
+    width: 80%;
+    max-width: 1000px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: #d32f2f;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0049f3;
+}
 
 
+.footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
 }
-img{
-    width: 200px;;
-    margin: 200px;;
-    min-width: 275px;
-    
+
+.footer a {
+    color: #888;
+    text-decoration: none;
 }
-.cor-ruim{
-    color: brown;
+
+.footer a:hover {
+    color: #fff;
 }
-h2{
-    color: brown;
-    width: 200;
-    height: 200;
+
+
+.character-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.cor-ruim{
-    color: brown;
- 
+
+.character-list li {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
-.cor-ruim2{
-    color: brown;
+
+.character-list li:hover {
+    background-color: #444;
+}
+
+.character-list img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.character-list h3 {
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+
+.quote {
+    font-style: italic;
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quote::before {
+    content: '“';
+    font-size: 30px;
+    vertical-align: middle;
+    color: #d32f2f;
+}
+
+.quote::after {
+    content: '”';
+    font-size: 30px;
+    vertical-align: middle;
+    color: #d32f2f;
 }
