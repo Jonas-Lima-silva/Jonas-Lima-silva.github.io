@@ -42,6 +42,7 @@ p {
     margin-bottom: 20px;
     max-width: 800px;
     text-align: justify;
+    text-align: center;
 }
 
 
@@ -101,6 +102,6 @@ p {
 h2:nth-of-type(2) {
     color: #90caf9; 
 }
-.texto1{
+.p .character-section{
     text-align: center;
 }

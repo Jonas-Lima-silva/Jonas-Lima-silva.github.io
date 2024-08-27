@@ -37,9 +37,8 @@ p {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-    margin: 30px 0;
-    width: 80%;
-    max-width: 1000px;
+   text-align: center;
+    flex-wrap: wrap;
 }
 
 img {
@@ -93,6 +92,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
 }
 
 .character-list li {
@@ -143,4 +143,7 @@ img {
     font-size: 30px;
     vertical-align: middle;
     color: #d32f2f;
+}
+.texto{
+    text-align: center;
 }
