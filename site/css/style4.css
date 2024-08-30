@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;  /* Fundo escuro */
+    color: #f0f0f0;  /* Texto claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #b22222; /* Cor de destaque */
+}
+
+/* Container Principal */
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: 100px auto 20px; /* Ajuste para o cabeçalho fixo */
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Imagem de Capa */
+.cover-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Estilo para Seções */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #b22222;  /* Cor de destaque */
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Estilo para Personagens */
+.character {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.character img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.character h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #b22222;
+}
+
+.character p {
+    font-size: 16px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-image {
+    width: 80px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header-content, .footer-content, .container {
+        padding: 0 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: #d32f2f;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+}
